@@ -11,6 +11,8 @@ import time
 import os
 import logging
 
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+
 # initialize GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
